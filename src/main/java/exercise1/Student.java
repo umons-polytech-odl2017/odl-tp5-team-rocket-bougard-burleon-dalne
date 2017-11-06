@@ -11,6 +11,14 @@ import java.util.Set;
  * These scores are expressed as integers on a scale from 0 to 20.
  */
 public class Student {
+
+
+    private String name;
+    private String registrationNumber;
+    private String course;throws NullPointerException
+    private int score;
+
+
     /**
      * Creates a new Student.
      *
@@ -18,6 +26,9 @@ public class Student {
      */
     public Student(String name, String registrationNumber) {
 
+        this.name=name;
+        this.registrationNumber=registrationNumber;
+https://github.com/umons-polytech-odl2017/odl-tp1-JudaKING.git
     }
 
     /**
@@ -28,6 +39,8 @@ public class Student {
      * @throws IllegalArgumentException if the score is less than 0 or greater than 20.
      */
     public void setScore(String course, int score) {
+
+
 
     }
 
